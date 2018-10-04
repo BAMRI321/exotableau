@@ -16,8 +16,17 @@ $s=0;
            $s=$s+1;
        }
   }
-  echo "la valeur de ".$i." est presente ".$s." fois <br>";
+  
+  if($s>2)
+  {
+  echo "<p style=background-color:red;>la valeur de ".$i." est presente ".$s." fois <br></p>";
+  }
+  else
+  {
+      echo "la valeur de ".$i." est presente ".$s." fois <br>";
+  }
 
 
 }
+
 ?>
